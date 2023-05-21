@@ -1,13 +1,19 @@
+  /*****************************/
+ /*Here's For General Practice*/ 
+/*****************************/
+
 #include <stdio.h>
 
 int main()
 {
-    int age;
-    double height;
+    int age = 12;
+    double height = 123.1;
     char grade;
-    char name[];
+    char m;
     
-    printf
+    printf("Number: %-6.1f\n", height);
+    printf("Number: %-6d", age);
+
 
     
     return 0;
